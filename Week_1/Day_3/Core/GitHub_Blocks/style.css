@@ -46,6 +46,7 @@ img {height: 250px;}
     display: flex;
     justify-content: center;
     padding: 20px;
+    color: #6b6b6b;
 }
 
 a {color: aqua;
