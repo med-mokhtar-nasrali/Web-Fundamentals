@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin : 20px;
+    color: #474855;
+}
+
+.raw1 {
+    background-color: cyan;
+    display: flex;
+    justify-content: space-between  ;
+    padding: 20px;
+}
+
+
+.raw2 {
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly  ;
+    padding: 20px;
+}
+
+.raw3 {
+    background-color: white;
+    display: flex;
+    justify-content: space-between  ;
+    padding: 25px;
+}
+
+img {height: 250px;}
+
+.all {
+    padding: 20px;
+
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+a {color: aqua;}
