@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto';
+    font-family: Roboto;
 }
 
 .all{
@@ -10,33 +10,43 @@
     background-color: #070505;
     padding:10px;
     align-items: center;
-    padding-left: 100px;
+    padding-left: 170px;
 }
-.nav{
+.navig{
     display: flex;
 }
-.nav-title{
+.navtitle{
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;  
 }
-.active{
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.btn{
-    background-color:#17A2B8;
-    box-shadow:2px 2px 2px 2px;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100px;
-    height: 30px;
-}
-.nav-links{
+.navlink{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 30px;
 }
+.btn{
+    background-color:#17A2B8;
+    box-shadow: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90px;
+    height: 30px;
+    font-size: large;
+    color: white;
+}
+.UserCard{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 550px;
+    top: 40px;
+}
+.location{
+    display: flex;
+    position: relative;
+    top: 20px;
+    width: 10px;
+}
+
 li{
     display: flex;
     color: #333333;
@@ -44,32 +54,24 @@ li{
     padding-right: 20px;
 }
 a{
-    color: white;
+    color: rgb(160, 157, 157);
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+}
+.Tag{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
 }
 ul{
     padding-left: 40px;
 }
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.c-1{
-    width: 500px;
-    height: 500px;
-    position: relative;
-    left: 550px;
-    top: 40px;
-}
-.line-1{
+.L1{
     width: 500px;
     height: 100px;
     background-color: #17A2B8;
-
 }
-.line-2{
+.L2{
     width: 494px;
     height: 250px;
     background-color:white;
@@ -78,9 +80,9 @@ ul{
 img{
     width: 20px;
     height: 20px;
-    margin-right: 20px;
+    margin-right: 10px;
 }
-.user{
+.Pic{
     position:relative;
     top: 44px;
     width: 100px;
@@ -89,22 +91,12 @@ img{
     border-radius:100% ;
     border: solid rgb(236,235,232);
 }
-.edit{
+.Settings{
     display: flex;
     position: relative;
     top: 60px;
 }
-.loc{
-    display: flex;
-    position: relative;
-    top: 15px;
-    width: 5px;
-}
-p{
-    position: relative;
-    top: 50px;
-}
-.col{
+.column{
     position: relative;
     top: 50px;
     left: 20px;
@@ -120,14 +112,12 @@ span{
     margin-bottom: 10px;
     color: white;
 }
-p{
-    font-size:large;
-}
-.ed{
-    color: #0C5394;
+.edit{
+    color: #085394;
     text-decoration: underline;
+    
 }
-.c-2{
+.CV{
     position: relative;
     left: 550px;
     bottom: 80px;
@@ -136,19 +126,7 @@ p{
     background-color:white;
     border: solid rgb(236,235,232);
 }
-.edu{
-    background-color: #0a0a0a;
-}
-.pa{
-    position: relative;
-    left: 20px;
-    top: 10px;
-}
-.ph{
-    font-weight:bold;
-}
-
-.c-3{
+.Request{
     position: relative;
     left: 1135px;
     bottom: 565px;
@@ -157,32 +135,7 @@ p{
     background-color:white;
     border: solid rgb(236,235,232);
 }
-.con{
-    background-color: #0a0a0a;
-}
-.acc{
-    position: relative;
-    left: 100px;
-    height: 30px;
-    width: 30px;
-}
-.close{
-    position: relative;
-    left:100px ;
-    height: 30px;
-    width: 30px;
-}
-.i-pro{
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-.pro{
-    border-radius: 100%;
-    width: 50px;
-    height: 50px;
-}
-.c-4{
+.Con{
     position: relative;
     left: 1135px;
     bottom: 545px;
@@ -191,38 +144,69 @@ p{
     background-color:white;
     border: solid rgb(236,235,232);
 }
-.con{
+.Level{
+    background-color: #0a0a0a;
+}
+.Bio{
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+.l1{
+    font-weight:bold;
+}
+.List{
     background-color: #0a0a0a;
     display: flex;
 }
-.acc{
+.account{
     position: relative;
     left: 100px;
     height: 30px;
     width: 30px;
 }
-.close{
+.account1{
+    position: relative;
+    left: 90px;
+    height: 30px;
+    width: 30px;
+    
+}
+.Deny{
     position: relative;
     left:100px ;
     height: 30px;
     width: 30px;
 }
-.i-pro{
+.Deny1{
+    position: relative;
+    left:90px ;
+    height: 30px;
+    width: 30px;
+    padding-right: 10px;
+}
+.names{
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
-.pro{
+.tech{
     border-radius: 100%;
     width: 50px;
     height: 50px;
-}
-h4{
-    color: #0C5394;
-    text-decoration: underline;
-    margin:10px;
 }
 h2{
     color: white;
     margin-left: 20px;
 }
+h4{
+    color: #085394;
+    text-decoration: underline;
+    margin:10px;
+}
+p{
+    position: relative;
+    top: 40px;
+    font-size:large;
+}
+
