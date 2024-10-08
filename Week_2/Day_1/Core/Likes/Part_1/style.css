@@ -1,0 +1,35 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+
+.container{
+    margin: 50px auto;
+    width: 500px;
+    border: 2px solid black;
+    height: 130px;
+    padding: 10px;
+    
+}
+.row1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button{
+    background-color: #FFD966;
+    height: 40px;
+    width: 60px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.row1 div {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    align-items: center;    
+}
+.text{
+    padding-top: 10px;
+}
